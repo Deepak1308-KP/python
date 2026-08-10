@@ -197,4 +197,3 @@
 #     for col in range(row,n):
 #         print("*",end=" ")
 #     print()
-    
