@@ -140,4 +140,61 @@
 # else:
 #     print("it is not belongs to fibonacci")
 
+
+###Palindrome Number
+# n = int(input("Enter a number: "))
+# a = n
+# rev = 0
+# while n > 0:
+#     digit = n % 10
+#     rev = rev * 10 + digit
+#     n = n // 10
+# if rev == a:
+#     print("Palindrome number")
+# else:
+#     print("Not a palindrome number")
+
+
 ##Given Number is Strong or not 
+# n = int(input("Enter a number: "))
+# a = n
+# sum = 0
+# while n > 0:
+#     digit = n % 10
+#     fact = 1
+#     for i in range(1, digit + 1):
+#         fact *= i
+#     sum += fact
+#     n = n // 10
+# if sum == a:
+#     print("Strong number")
+# else:
+#     print("Not a strong number")
+
+
+
+##Print only the even number 
+# n=int(input("Enter a number: "))
+# even_no=0
+# place=1
+# while n>0:
+#     digits=n%10
+#     if(digits%2==0):
+#         even_no=digits*place+even_no
+#         place*=10
+#     n=n//10
+# print(even_no)
+
+
+##Prints only the odd nnumber
+# n=int(input("Enter a numbers: "))
+# odd_no=0
+# place=1
+# while n>0:
+#     digits=n%10
+#     if digits%2!=0:
+#         odd_no=digits*place+odd_no
+#         place*=10
+#     n=n//10
+# print(odd_no)
+    
