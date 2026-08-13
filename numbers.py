@@ -173,7 +173,7 @@
 
 
 
-##Print only the even number 
+#Print only the even number 
 # n=int(input("Enter a number: "))
 # even_no=0
 # place=1

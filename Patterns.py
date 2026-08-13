@@ -3,7 +3,7 @@
 #         print("*", end=" ")
 #     print()
 
-##Patrens
+#Patrens
 # n=int(input("Enter a number:"))
 # for row in range(1,n+1):
 #     for col in range(1,n+1):
@@ -61,7 +61,7 @@
 #     print()
 
 
-##         *
+##     *
 #     **
 #    ***
 #   ****
@@ -168,12 +168,12 @@
 ##Triangle And reverse ones
 
 
-# n=int(input("Enter a Number:"))
-# for row in range(n):
-#     for space in range(1, n-row):
+# n=int(input("Enter a Number: "))
+# for row in range(1, n+1):
+#     for space in range(n-row):
 #         print(" ", end="")
 #     for col in range(1, row+1):
-#         print("*", end=" ")
+#         print("*",end=" ")
 #     print()
 
 
@@ -235,15 +235,7 @@
 
 
 
-
 ###################################Printing a Char In Trianle#############################
-# n=int(input("Enter a Number: "))
-# for row in range(1, n+1):
-#     for space in range(n-row):
-#         print(" ", end=" ")
-#     for col in range(1, row+1):
-#         print(chr(64+col),end=" ")
-#     print()
     
 # n=int(input("Enter a Number: "))
 # for row in range(1, n+1):

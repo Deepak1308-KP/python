@@ -18,7 +18,7 @@
 #     print(f"n2 is greater than {n1}")
 
 # leap=int(input("Enter a year:"))
-# if(leap%400==0 or(leap%4==0 and leap%100 !=0)):
+# if(leap%400==0 or(leap%4==0 and leap%100!=0)):
 #     print(f"{leap} is a leap year")
 # else:
 #     print(f"{leap} is  Not a leap year") 
@@ -54,7 +54,7 @@
 
 # n=input("Enter a word:")
 # if n ==n[::-1]:
-#     print("n")
+#     print(n)
 #     print("The Word Is Palindrome.")
 # else:
 #     print("The Word Is not a Palindrome.")
@@ -111,7 +111,7 @@
 #     print("Enter a correct number")
 
 
-#Given charcter is case or lower
+# Given charcter is case or lower
 # ch=input("enter a character:")
 # if(ch.isupper()):
 #     print("Enterd char is in Upper case")
@@ -129,42 +129,42 @@
 # else:
 #     print("other")
          
-     
-#check the given date is valid or not
-# date=int(input("Enter a date:"))
-# month=int(input("Enter a Month:"))
-# year=int(input("Enter a Year:"))
-# if(year%400==0 or(year%4==0 and year%100 !=0)):
-#     leap=True
-# else:
-#     leap=False
-        
-# if (month<1 or month>12 ):
-#     print("invalid Month")
-# elif (date<1 or date>31):
-#     print("Invalid date ")
-    
-# if month in[ 4,6, 9,11]:
-#     if date<31:
-#         print("Invalid Date") 
-#     elif date<=31:
-#         print("vaild date")
-        
-# if month in[1,3,5,7,8,10,12]:
-#     if date>30:
-#         print("Invalide date")
-#     elif date<=30:
-#         print("valid Date")
 
-# if month==2:
-#     if leap==True and date>29:
-#         print("Inavalide")
-#     elif leap==False and date>28:
-#         print("Invalide date")
-#     else:
-#         print("Valid Date")
-# else:
-#     print("")
+# check the given date is valid or not
+date = int(input("Enter a date: "))
+month = int(input("Enter a Month: "))
+year = int(input("Enter a Year: "))
+
+if(year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)):
+    leap = True
+else:
+    leap = False
+
+if(month < 1 or month > 12):
+    print("Invalid Month")
+
+elif(date < 1 or date > 31):
+    print("Invalid Date")
+
+elif month in [4, 6, 9, 11]:
+    if date <= 30:
+        print("Valid Date")
+    else:
+        print("Invalid Date")
+
+elif month in [1, 3, 5, 7, 8, 10, 12]:
+    if date <= 31:
+        print("Valid Date")
+    else:
+        print("Invalid Date")
+
+elif month == 2:
+    if leap == True and date <= 29:
+        print("Valid Date")
+    elif leap == False and date <= 28:
+        print("Valid Date")
+    else:
+        print("Invalid Date")
     
 
     
