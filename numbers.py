@@ -197,4 +197,42 @@
 #         place*=10
 #     n=n//10
 # print(odd_no)
+
+##Separate the even numbers and odd number from given integer
+# n=int(input("Enter a number:"))
+# even_no=0
+# odd=0
+# pos=1
+# place=1
+# while n>0:
+#     digits=n%10
+#     if(digits%2==0):
+#           even_no=digits*place+even_no
+#           place*=10
+#     else:
+#         odd=digits*pos+odd
+#         pos*=10
+#     n=n//10
+# print(even_no)
+# print(odd)
+
+
+# n=int(input("Enter a number: "))
+# even=[]
+# odd=[]
+# while n>0:
+#     digits=n%10
+#     if(digits%2==0):
+#         even.append(digits)
+#     else:
+#         odd.append(digits)
+#     n=n//10
+# print(odd)
+# print(even)
+        
+        
+        
+          
+        
+          
     
