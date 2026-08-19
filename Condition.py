@@ -131,44 +131,43 @@
          
 
 # check the given date is valid or not
-date = int(input("Enter a date: "))
-month = int(input("Enter a Month: "))
-year = int(input("Enter a Year: "))
+# date = int(input("Enter a date: "))
+# month = int(input("Enter a Month: "))
+# year = int(input("Enter a Year: "))
 
-if(year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)):
-    leap = True
-else:
-    leap = False
+# if(year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)):
+#     leap = True
+# else:
+#     leap = False
 
-if(month < 1 or month > 12):
-    print("Invalid Month")
+# if(month < 1 or month > 12):
+#     print("Invalid Month")
 
-elif(date < 1 or date > 31):
-    print("Invalid Date")
+# elif(date < 1 or date > 31):
+#     print("Invalid Date")
 
-elif month in [4, 6, 9, 11]:
-    if date <= 30:
-        print("Valid Date")
-    else:
-        print("Invalid Date")
+# elif month in [4, 6, 9, 11]:
+#     if date <= 30:
+#         print("Valid Date")
+#     else:
+#         print("Invalid Date")
 
-elif month in [1, 3, 5, 7, 8, 10, 12]:
-    if date <= 31:
-        print("Valid Date")
-    else:
-        print("Invalid Date")
+# elif month in [1, 3, 5, 7, 8, 10, 12]:
+#     if date <= 31:
+#         print("Valid Date")
+#     else:
+#         print("Invalid Date")
 
-elif month == 2:
-    if leap == True and date <= 29:
-        print("Valid Date")
-    elif leap == False and date <= 28:
-        print("Valid Date")
-    else:
-        print("Invalid Date")
+# elif month == 2:
+#     if leap == True and date <= 29:
+#         print("Valid Date")
+#     elif leap == False and date <= 28:
+#         print("Valid Date")
+#     else:
+#         print("Invalid Date")
     
 
     
-
 
 # simple caluculator
 # operator=input("Enter operator")

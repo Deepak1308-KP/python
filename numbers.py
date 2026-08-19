@@ -217,6 +217,7 @@
 # print(odd)
 
 
+##Another method using list method 
 # n=int(input("Enter a number: "))
 # even=[]
 # odd=[]
@@ -230,9 +231,4 @@
 # print(odd)
 # print(even)
         
-        
-        
-          
-        
-          
-    
+##
