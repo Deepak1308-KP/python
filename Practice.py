@@ -92,6 +92,7 @@
 # else:
 #     print("It is not a palindrome")
 
+
 # num=int(input("Enter a number:"))
 # fact=1
 # for i in range(1, num+1):
@@ -129,13 +130,14 @@
 #     print("Not a prime number")
 
 
+
 # n = int(input("Enter a number: "))
 # original = n
 # digits = len(str(n))
 # total = 0
 # while n > 0:
-#     digit = n % 10
-#     total += digit ** digits
+#     rem = n % 10
+#     total += rem** digits
 #     n //= 10
 # if total == original:
 #     print("Armstrong")
@@ -170,6 +172,7 @@
 #     print("Perfect Number")
 # else:
 #     print("Not Perfect Number")
+
 
 # num=int(input("Enter a number:"))
 # for i in range(1, num + 1):

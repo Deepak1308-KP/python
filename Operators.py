@@ -8,7 +8,7 @@
 # print(id(c))
 
 
-#membership operator
+# membership operator
 # st="Deepak"
 # print('e' in st)
 # print('x' in st)

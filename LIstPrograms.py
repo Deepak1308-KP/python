@@ -104,6 +104,7 @@
 #         a.append(value)
 # print(a)
 
+
 ##FInd the Second largest in the list
 # a=[1,2,3,4,5,6,67,78,98]
 # max=a[0]
@@ -171,3 +172,86 @@
 # print(c)
         
 
+##Find the frequency of each element
+# a=[1,2,2,3,4,5,6,6,7,8,9,2,1,1]
+# dict={}
+# for value in a:
+#     if value in dict:
+#         dict[value]+=1
+#     else:
+#         dict[value]=1
+# print(dict) 
+
+
+# Move all  the zeros to a end
+# a=[1,0,2,0,3,0,4,0,5,0]
+# result=[]
+# b=[]
+# for i in a:
+#     if i!=0:
+#         result.append(i)
+# for values in a:
+#     if values==0:
+#         result.append(values)
+# print(result)
+
+##Another method
+# a=[1,0,2,0,3,0,4,0,5,0]
+# dict=[]
+# zero=0
+# for i in a:
+#     if i==0:
+#         zero+=1
+#     else:
+#         dict.append(i)
+# for j in range(zero):
+#     dict.append(0)
+# print(dict)
+
+##write a prgm to rotate a list by one postion to the right 
+# a=[1,2,3,4,5,6,7,8]
+# pos=4
+# n=[]
+# right=[]
+# for i in range(len(a)):
+#     if i< pos:
+#         right.append(a[i])
+#     else:
+#         n.append(a[i])
+# n.extend(right)
+# print(n)
+
+        
+# a=[1,2,3,4,5,6,7,8]
+# k=int(input("Enter index to rotate:"))
+# for j in range(k):
+#     last=a[-1]
+# for i in range(len(a)-1,0,-1):
+#     a[i]=a[i-1]
+# a[0]=last
+# print(a)
+
+
+# Check the given list is sorted or not
+# a=[2,1,3,5,4,6,8,7]
+# b=a.copy()
+# c=a.copy()
+# c.sort()
+# if b==c:
+#     print("It is a sorted:")
+# else:
+#     print("Not sorted")
+
+#another method
+# a=[2,1,3,5,4,6,8,7]
+# for i in range(len(a)):
+#     for j in range(i+1, len(a)):
+#         if a[i]>a[j]:
+#             print("It ia not sorted")
+#             break
+#     if a[i]>a[j]:
+#         break
+# else:
+#     print("Sorted")
+            
+    

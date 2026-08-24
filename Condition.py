@@ -4,6 +4,7 @@
 # else:
 #     print(f"Given number {n} is odd Number")
 
+
 # num=int(input("Enter the NUmber:"))
 # if(n<0):
 #     print(f"the given Number {num} is negative")
@@ -30,6 +31,7 @@
 #     print(f"your {age} is eligibe to vote")
 # else:
 #     print(f"your {age} is  not eligibe to vote")
+
     
 # num=int(input("Enter a number:"))
 # if(num%3==0):
@@ -106,7 +108,6 @@
 #     print(f"{num}The number is diveded by Three")
 # elif(num%5==0):
 #     print(f"{num} is the divided by Five")
-
 # else:
 #     print("Enter a correct number")
 

@@ -106,6 +106,7 @@
 #     result*=base
 # print(result)
 
+
 ##LCM List col multiple
 # n=int(input("Enter a Number:"))
 # m=int(input("Enter a number:"))

@@ -27,7 +27,7 @@
 # i=1
 # while(i<=10):
 #     print(f"{a}*{i}={a*i}")
-    # i+=1
+#     i+=1
 
 # n=int(input("Enter a number"))
 # i=1
@@ -36,7 +36,7 @@
 #     i+=1
 
 
-#Sum of natural numbers
+# Sum of natural numbers
 # n=int(input("Enter a Number:"))
 # a=0
 # i=0

@@ -10,6 +10,7 @@
 # lit=[12, 13,34, 54, 12, 'python', 'java', 'abcd', 'deepak']
 # ls=lit.count(12)
 # print(ls)
+
 # Count an item that is not in the list
 # print(lit.count('html'))  
 # Output: 0
