@@ -127,6 +127,10 @@
 
 ##Generate a list of squares of the first 20 natural number
 
-natural= [i**2 for i in range(1, 21,1)]
-print(natural)
+# natural= [i**2 for i in range(1, 21,1)]
+# print(natural)
 
+##Convert a list of temp from celsius to fahrenhait
+# c = [0, 10, 20, 30, 40]
+# f = [i * 9/5 + 32 if i >= 0 else i for i in c]
+# print(f)
