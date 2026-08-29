@@ -197,3 +197,115 @@
 # result = [x for x in coupons if x.startswith("SAVE")]
 # print(result)
 
+# Filter odd-indexed values.
+# x = [10, 20, 30, 40, 50]
+# result = [x[i] for i in range(len(x)) if i % 2 != 0]
+# print(result)
+
+# Extract uppercase letters from a string.
+# text = "HeLLo WoRLd"
+# result = [x for x in text if x.isupper()]
+# print(result)
+
+# Filter failed transactions.
+# transactions = [100, 20, 75, 30, 90]
+# result = [x for x in transactions if x < 50]
+# print(result)
+
+# Extract numbers divisible by both 2 and 3.
+# numbers = [6, 8, 12, 15, 18, 20]
+# result = [x for x in numbers if x % 2 == 0 and x % 3 == 0]
+# print(result)
+
+# Filter prices with GST above threshold.
+# prices = [500, 800, 1000, 2000]
+# result = [x for x in prices if x * 0.18 > 100]
+# print(result)
+
+# Extract palindromes from word list.
+# words = ["madam", "hello", "level", "python", "radar"]
+# result = [x for x in words if x == x[::-1]]
+# print(result)
+
+# Filter salaries within tax slab.
+# salaries = [300000, 500000, 700000, 1000000, 1200000]
+# result = [x for x in salaries if 500000 <= x <= 1000000]
+# print(result)
+
+# Extract valid email IDs.
+# emails = [
+#     "abc@gmail.com",
+#     "hello",
+#     "test@yahoo.com",
+#     "wrong@",
+#     "user@outlook.com"
+# ]
+# result = [x for x in emails if "@" in x and "." in x]
+# print(result)
+
+# Filter marks between 60 and 80.
+# marks = [45, 60, 65, 75, 80, 90]
+# result = [x for x in marks if 60 <= x <= 80]
+# print(result)
+
+# Extract strings without special characters.
+# words = ["hello", "hello123", "#python", "hello@", "world"]
+# result = [x for x in words if x.isalnum()]
+# print(result)
+
+# Filter duplicate-free values.
+# arr = [1, 2, 2, 3, 4, 4, 5]
+# result = [x for x in arr if arr.count(x) == 1]
+# print(result)
+
+# Extract temperatures below freezing.
+# temperatures = [10, -5, 0, -10, 20, -2]
+# result = [x for x in temperatures if x < 0]
+# print(result)
+
+# Filter products in stock.
+# stock = [0, 5, 10, 0, 3]
+# result = [x for x in stock if x > 0]
+# print(result)
+
+# Extract employees with experience > 5 years.
+# experience = [
+#     ["Deepak", 2], 
+#     ["Prajwal", 6]
+#     ,["Bharath", 4],
+#     ["Sachin", 8],
+#     ["Gagan", 10],
+#     ["Vikesh", 3]]
+# result = [x for x in experience if x[1] > 5]
+# print(result)
+
+# Filter URLs starting with “https”.
+# urls = [
+#     "https://google.com",
+#     "http://example.com",
+#     "https://github.com",
+#     "ftp://test.com"
+# ]
+# result = [x for x in urls if x.startswith("https")]
+# print(result)
+
+# Extract integers from mixed list.
+# arr = [10, "hello", 20, 3.5, "python", 30]
+# result = [x for x in arr if isinstance(x, int)]
+# print(result)
+
+# Filter words ending with “ing”.
+# words = ["running", "hello", "walking", "python", "coding"]
+# result = [x for x in words if x.endswith("ing")]
+# print(result)
+
+# Extract values less than median.
+# arr = [10, 20, 30, 40, 50]
+# median = 30
+# result = [x for x in arr if x < median]
+# print(result)
+
+# Filter non-empty strings.
+# words = ["hello", "", "python", "", "world"]
+# result = [x for x in words if x != ""]
+# print(result)
