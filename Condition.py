@@ -168,8 +168,6 @@
 #         print("Invalid Date")
     
 
-    
-
 # simple caluculator
 # operator=input("Enter operator")
 # a=int(input("Enter a Number:"))
