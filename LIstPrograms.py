@@ -97,7 +97,6 @@
         
 ##Remove Duplicate FRom the list
 # xyz=[1, 2, 3,'Deepak', 'Python', 'the','the', 'dots','by','by','dashed']
-# # n=input("Enter a  ")
 # a=[]
 # for value in xyz:
 #     if value not in a:
