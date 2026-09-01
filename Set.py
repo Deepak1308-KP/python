@@ -51,6 +51,10 @@
 # print(st)
 
 
+#it will use to remove particular element or items
+# st.discard(1)
+
+
 ##porperties of set
 # st={1,2,2,1,3,4,5,6}
 # st1={1,2,3,4,5,6,7,8,9}
@@ -73,9 +77,12 @@
 # print(st1)
 
 # Frozen set is immutable and ordered dead opposite of set
+#hashable (Fixed values)
+
 
 # st2=frozenset({1,"P","p",1,3,0,4,5,6,True, False})
 # st1=frozenset({1,"p","P", 1,3,4})
+# print(st1)
 # print(st2)
 
 # fs1 = frozenset([1, 2])
@@ -97,3 +104,69 @@
 # fs2 = frozenset([3, 4])
 # result = fs1.symmetric_difference(fs2) 
 # print(result)
+
+
+##Subset method
+# a={1,2,3}
+# b={1,2,3,4,5,6}
+
+# print(a.issubset(b)) ##if it correct it will give True else it give false
+
+# a={1,2,3,4,5,6,7,8}
+# b={1,2,3,4,5}
+# print(a.issuperset(b))  ##if it correct it will give True else it give false
+
+
+##Disjoint is the not same in both the sets and even if it has single element common it gives Flase 
+# a={11,12,13,14}
+# b={1,2,3,4,5,6,7,14}
+# print(a.isdisjoint(b))
+
+# a={1,2,3,4,5}
+# b={5,4,6,7,8,9,10}
+# print(a|b)
+# print(a&b)
+# print(a-b)
+# print(a^b)
+# print(a<=b)
+# print(a>=b)
+
+#Set comphereations
+
+# Set=(1,2,3,4,5,6,7,8,12,14,16)
+# print(type(Set))
+# result={x for x in Set if x%2==0}
+# print(result)
+
+# FROm name list out uniq char
+# Char=("Deepak")
+# result={name for name in Char  }
+# print(result)
+
+
+
+##Common char between two string
+# str1="Python"
+# st2="Program"
+# common=set(str1).intersection(set(st2))
+# print(common)
+
+
+
+
+# Create a set of numbers find the prime number from set
+# Prime={1,2,3,4,5,6,7,8,9}
+# result = {x for x in Prime if x > 1 and sum(x % i == 0 for i in range(1, x + 1)) == 2}
+# print(result)
+
+# set=int(input("Enter a number:"))
+# count=0
+# for i in range(1, set+1):
+#     if set%i==0:
+#         count+=1
+# if count==2:
+#     print("Prime:", set)
+# else:
+#     print("Not a prime")
+
+    
