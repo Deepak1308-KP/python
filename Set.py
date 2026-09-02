@@ -168,5 +168,3 @@
 #     print("Prime:", set)
 # else:
 #     print("Not a prime")
-
-    
