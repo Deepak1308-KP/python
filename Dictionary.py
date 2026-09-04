@@ -54,8 +54,77 @@
 # print(info1)
 # print(info)
 
-# Set default= it inserts the key with the specified default value into the dictionary.
+# Set default= it inserts the key with the specified default value into the dictionary if not value in dictionary.
 # info={'name':'Deepak', 'age':22, 'Hometown':'Shivamogga'}
-# age = info.setdefault('village', 'kanasinakatte')
+# age = info.setdefault('village', 'kkt')
 # print(info)
 
+# dic={"name":"Deepak", "roll_no":35, "clg":"kit"}
+# if "marks" in dic:
+#     dic.setdefault("marks", 55)
+#     print(dic)
+# else:
+#     dic.setdefault("marks", 60)
+#     print(dic)
+
+# Nested Dictionary
+# information ={"stu1":{"name": "Deepak"},
+#               "stu2":{"name":"DKP"}}
+# print(information)
+
+# dic=("name", "age", "DOB", "height")
+# dic1=dict.fromkeys(dic)
+# print(dic1)
+
+##Sorted
+# student ={"name ":"Deepak", "age":22, "DOB":2004}
+# stu=dict(sorted(student.items()))
+# print(stu)
+
+##Feq letter counting
+# name=input("Enter a your name:")
+# dic={}
+# for char in name:
+#     if char in dic:
+#         dic[char]+=1
+#     else:
+#         dic[char]=1
+# print(dic)
+    
+##Word frequency
+# sentence="Python is easy and  python is powerfull"
+# sent=sentence.split(" ")
+# dic={}
+# for word in sent:
+#     if word in dic:
+#         dic[word]=dic[word]+1
+#     else:
+#         dic[word]=1
+# print(dic)
+            
+            
+##ZIp function
+# D=["name", "Roll_no","class", "Native"]
+# D1=["Deepak", 29, 12, "Shivamogga"]
+# dic=dict(zip(D,D1))
+# print(dic)
+
+# ##Dictionary Comprehential
+# square={i:i*i for i in range(1, 11)}
+# print(square)
+
+# even={i:i for i in range(1,50) if i%2==0}
+# print(even)
+
+##Student of marks highst
+# students={"Deepak":80, "Gagan":90, "Vikesh":75, "Suhail":85}
+# max={}
+# for i in students:
+#     i.max
+
+
+# Find the most freq char
+n={"name1":"vikesh","name2":"pradeep","name3":"suresh","name4":"mahesh"}
+repeated_char=max(n,key=n.get)
+print(repeated_char)
+    
