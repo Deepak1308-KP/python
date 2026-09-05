@@ -117,14 +117,31 @@
 # print(even)
 
 ##Student of marks highst
-# students={"Deepak":80, "Gagan":90, "Vikesh":75, "Suhail":85}
-# max={}
-# for i in students:
-#     i.max
+# students = {
+#     "Deepak": 80,
+#     "Gagan": 90,
+#     "Vikesh": 75,
+#     "Suhail": 85
+# }
+# highest = max(students, key=students.get)
+# print(highest + ":" + str(students[highest]))
+
+##Another Prgm
+# students = {
+#     "Deepak": 80,
+#     "Gagan": 90,
+#     "Vikesh": 75,
+#     "Suhail": 85
+# }
+# highest = max(students, key=students.get)
+# print(highest)
+# print(students[highest])
 
 
 # Find the most freq char
-n={"name1":"vikesh","name2":"pradeep","name3":"suresh","name4":"mahesh"}
-repeated_char=max(n,key=n.get)
-print(repeated_char)
-    
+# name = "Deepak"
+# count = {}
+# for char in name:
+#     count[char] = count.get(char, 0) + 1
+# repeated_char = max(count, key=count.get)
+# print(repeated_char, ":", count[repeated_char])
