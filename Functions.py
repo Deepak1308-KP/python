@@ -8,8 +8,19 @@
 
 # Two types of functions 
 # 1.inbuilt function
-# 2. user defined function
+# print()
+# len()
+# type()
+# input()
+# sum()
+# max()
+# min()
+# range()
 
+# 2. user defined function
+# def add(a, b):
+#     return a + b
+# print(add(10, 20))
 
 # return
 # Function starts
@@ -53,6 +64,6 @@
 #     print(f"i am {name} and i got {score} scores points")
 # print_scores(80, "Deepak")
 
-def bank(bonus, blance):
-    print(f"your total bank blance is {bonus+blance}")
-bank(100, 220)
+# def bank(bonus, blance):
+#     print(f"your total bank blance is {bonus+blance}")
+# bank(100, 220)

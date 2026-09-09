@@ -157,12 +157,70 @@
 # print(square)
 
 # 21.	Filter with comprehension — Use list comprehension to extract all words longer than 4 letters from a list.
+# words=["Deepak", "Vikesh" , "Book", "Gagan", "Note","Boss"]
+# result=[x for x in words if len(x)>4 ]
+# print(result)
+
 # 22.	Merge and sort — Merge two sorted lists into a single sorted list without using sorted().
+# list1 = [1, 3, 5, 7]
+# list2 = [2, 4, 6, 8]
+# result = []
+# for i in list1:
+#     result.append(i)
+# for i in list2:
+#     result.append(i)
+# for i in range(len(result)):
+#     for j in range(i + 1, len(result)):
+#         if result[i] > result[j]:
+#             result[i], result[j] = result[j], result[i]
+# print(result)
+
 # 23.	Rotate a list — Rotate a list left or right by n positions.
+# list1 = [1, 2, 3, 4, 5]
+# n = 2
+# result = list1[n:] + list1[:n]
+# print(result)
+
 # 24.	Find common elements — Given two lists, find the elements common to both (without using set).
+# list=[1,2,3,4,5,6,7,8]
+# list1=[1,2,3,4,5]
+# result=[]
+# for i in list:
+#     for j in list1:
+#         if i==j:
+#             result.append(i)
+# print(result)
+
 # 25.	Frequency counter — Build a dictionary that counts the frequency of each element in a list.
+# list=[1,2,2,3,4,5,6,6,7,8,9,2,1,1]
+# dict={}
+# for i in list:
+#     if i in dict:
+#         dict[i]+=1
+#     else:
+#         dict[i]=1
+# print(dict)
+
 # 26.	Chunking a list — Split a list into chunks of size n.
+# list1 = [1,2,2,3,4,5,6,6,7,8,9,2,1,1]
+# n = 2
+# result = []
+# temp = []
+# for i in list1:
+#     temp.append(i)
+#     if len(temp) == n:
+#         result.append(temp)
+#         temp = []
+# if temp:
+#     result.append(temp)
+# print(result)
+
 # 27.	Zip two lists — Combine two lists into a dictionary using zip().
+# list=["name", "Roll_no","class", "Native"]
+# list1=["Deepak", 29, 12, "Shivamogga"]
+# dic=dict(zip(list,list1))
+# print(dic)
+
 # 28.	Swap elements — Swap the first and last elements of a list.
 # 29.	Palindrome check on list — Check if a list reads the same forward and backward.
 # 30.	Custom sort — Sort a list of tuples/dictionaries by a specific key (e.g., sort students by marks).
