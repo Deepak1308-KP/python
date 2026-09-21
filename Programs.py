@@ -32,13 +32,13 @@
 #     dict[i]=len(i)
 # print(dict)
 
-Student ={"Deepak":{'kannada':100,'English':65,'Science':70,'Maths':80},
-"Gagan":{'kannada':80,'English':55,'Science':70,'Maths':80},"Vikesh":{'kannada':90,'English':55,'Science':60,'Maths':70}}
-average={}
-for Student, subjects in Student.items():
-    total=sum(subjects.values())
-    count=len(subjects)
-    average[Student]=total/count
-print("Average Marks:", average)
+# Student ={"Deepak":{'kannada':100,'English':65,'Science':70,'Maths':80},
+# "Gagan":{'kannada':80,'English':55,'Science':70,'Maths':80},"Vikesh":{'kannada':90,'English':55,'Science':60,'Maths':70}}
+# average={}
+# for Student, subjects in Student.items():
+#     total=sum(subjects.values())
+#     count=len(subjects)
+#     average[Student]=total/count
+# print("Average Marks:", average)
 
 

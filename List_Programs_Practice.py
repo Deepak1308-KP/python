@@ -222,7 +222,22 @@
 # print(dic)
 
 # 28.	Swap elements — Swap the first and last elements of a list.
+# numbers = [1,2,3,4,5,6,7,8,9,10]
+# temp = numbers[0]
+# numbers[0] = numbers[-1]
+# numbers[-1] = temp
+# print(numbers)
+
 # 29.	Palindrome check on list — Check if a list reads the same forward and backward.
+# palindrome = [1, 2, 1]
+# rev = []
+# for i in palindrome:
+#     rev.insert(0, i)
+# if palindrome == rev:
+#     print("It is a palindrome", palindrome)
+# else:
+#     print("It is not a palindrome", palindrome)
+
 # 30.	Custom sort — Sort a list of tuples/dictionaries by a specific key (e.g., sort students by marks).
 # 31.	Running sum — Given a list, return a new list where each element is the cumulative sum up to that index.
 # 32.	Remove specific type — Remove all strings from a mixed list (containing ints, strings, floats).
