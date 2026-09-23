@@ -1,5 +1,3 @@
-
-
 # Write a program that uses three functions to print information about a laundromat, Liam's Laundry:
 # laundromat_info(): Prints the name, Liam's Laundry, and hours of operation, 7a - 11p, and calls washers_open() and dryers_open().
 # washers_open(): Reads an integer, assigns washer_count with the value, and prints washer_count.
@@ -41,6 +39,7 @@
 
 # Write a function, print_area(), that takes in the base and height of a right triangle and
 # prints the triangle's area. The area of a right triangle is bh/2, where b is the base and h is the height.
+
 # def area():
 #     print("Enter a height and breadth to calculate area of triangle")
 #     a =int(input("Base:"))
@@ -64,3 +63,67 @@
 #         updated_score= value+bonus
 #         print(f"{score} be updated to {updated_score}")
 # total([67, 68, 72, 71, 69], 10)
+
+
+#Filter Function
+# num=[1,2,3,4,5,6,7,8]
+# fill=list(filter(lambda x:x%2==0, num))
+# print(fill)
+
+##using user defined function replacing in the place of lambda 
+
+# def squr(x):
+#     return x*x
+# num=[1,2,3,4,5,6,7,8]
+# result=list(map(squr, num))
+# print(result)
+
+# def n(x):
+#     return x.upper()
+# name=["deepak", "gagan"]
+# result=list(map(n, name))
+# print(result)
+
+# """Write a Python program to calculate a student's total marks, percentage, and result using user-defined functions.
+# The program should:
+# Create a function calculate_total() that accepts marks of 3 subjects and returns the total marks.
+# Create a function calculate_percentage() that accepts the total marks and calculates the percentage.
+# Create a function check_result() that accepts the percentage.
+# If the percentage is 40 or above, return "Pass".
+# Otherwise, return "Fail".
+# Display the Total, Percentage, and Result.
+# """
+
+# def calculate_total(maths, science, physics):
+#     return maths+science+physics
+# def calculate_percentage(total):
+#     return total/3
+# def check_result(percentage):
+#     if percentage>=40:
+#         return "Pass"
+#     else:
+#         return "Fail"
+# total=calculate_total(20, 43, 20)
+# percentage=calculate_percentage(total)
+# result=check_result(percentage)
+# print("total:", total)
+# print("percentage:", percentage)
+# print("Result:", result)
+
+##Function returning multiple values 
+# def multiple(a,b,c):
+#     return a+b,a-b,a*b, a/b
+# w,x,y,z=multiple(1,2,3)
+# print(w)
+# print(x)
+# print(y)
+# print(z)
+
+##Global VAriable
+x=100
+def gol(a):
+    global y
+    y=20
+    return a+x+y
+print(gol(3))
+print(y)
