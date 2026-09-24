@@ -66,7 +66,7 @@
 
 
 #Filter Function
-# num=[1,2,3,4,5,6,7,8]
+# num=[1,44,2,3,4,5,6,7,8]
 # fill=list(filter(lambda x:x%2==0, num))
 # print(fill)
 
@@ -120,10 +120,70 @@
 # print(z)
 
 ##Global VAriable
-x=100
-def gol(a):
-    global y
-    y=20
-    return a+x+y
-print(gol(3))
-print(y)
+# x=100
+# def gol(a):
+#     global y
+#     y=20
+#     return a+x+y
+# print(gol(3))
+# print(y)
+
+
+
+# students=[("A",80), ("B",60), ("C",90)]
+# students.sort(key=lambda x:x[1])
+# print(students)
+
+# nums=[35,45,65,21,30,69,12,86]
+# nums.sort(key=lambda x:x>=35)
+# print(nums)
+
+# only we pass only positional argumnet without a keyword argument
+# def posti(a, b,/):
+#     return a+b
+# ans=posti(10,20)
+# print(ans)
+
+# only we pass only keyword  argumnet after giving a * without a positional argument
+# def keyword(name,*, age, place):
+#     return f"name:{name},\n Age:{age},\n place:{place}"
+# print(keyword("Deepak", age=66,place="xyz"))
+
+##FUnction argument unpacking 
+# for the unpacking list we will use a * for a list 
+#for dictionary we will use 2*
+
+# def students(a,b,c,d):
+#     return a,b,c,d
+# marks=[23,45,78,88]
+# print(students(*marks))
+
+# for dictionary unpacking
+# def students(name,age,place):
+#     return name,age,place
+# details={"name":"deepak", "age":22, "place":"Bnglr"}
+# print(students(**details))
+
+# DECORATOR= modify or extend there behaviour with out changing original code
+# def decorator(func):
+#     def wrapper():
+#         print("before decoration")
+#         func()
+#         print("After decoration")
+#     return wrapper
+# @decorator
+# def greet():
+#     print("Hello world")
+# greet=decorator(greet)  for this implementation we will use @decorator
+# greet()
+
+
+##Default mutable argument 
+# def cal(item,items=None):
+#     if items is None:
+#         items=[]
+#     items.append(item)
+#     return items
+# print(cal(3))
+# print(cal(4))
+# print(cal(5))
