@@ -252,6 +252,7 @@
 #     else:
 #         return 'it is not a palindrome'
 # print(palindrome())
+
    
 ##find the factorials
 # def factorial():
