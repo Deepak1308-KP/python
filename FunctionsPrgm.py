@@ -187,3 +187,106 @@
 # print(cal(3))
 # print(cal(4))
 # print(cal(5))
+
+
+##clouser
+# a clouser occurs when an innner function remebers values from its enclosing function even after enclosing the fun has finished excution 
+
+# def create_acc(balance):
+#     def deposite(amount):
+#         nonlocal balance
+#         balance +=amount
+#         return balance
+#     def withdraw(amount):
+#         nonlocal balance
+#         if amount <= balance:
+#             balance-=amount
+#             return balance
+#         else:
+#             return "Insufficient balance"
+#     return deposite, withdraw
+# deposite, withdraw=create_acc(10000)
+# print(deposite(2000))
+# print(withdraw(3000))
+# print(deposite(500))
+
+#Simple calculator
+# def calculator():
+#     def add(a,b):
+#         return a+b
+#     def sub(a,b):
+#         return a-b
+#     def multi(a,b):
+#         return(a*b)
+#     def division(a, b):
+#         if b==0:
+#             return "Cannot divide by zero"
+#         return a/b
+#     num1=float(input("Enter first number: "))
+#     num2=float(input("Enter Second number: "))
+#     print("1. Addition")
+#     print("2. Substraction")
+#     print("3. multiplication")
+#     print("4. Division")
+#     choice=int(input("Enter your chaoice: "))
+#     if choice ==1:
+#         result = add(num1,num2)
+#     elif choice==2:
+#         result=sub(num1,num2)
+#     elif choice==3:
+#         result=multi(num1,num2)
+#     elif choice==4:
+#         result=division(num1,num2)
+#     else:
+#         result="Invalid choice"
+#     print("Result:", result)
+# calculator()
+
+
+##Check palindrom
+# def palindrome():
+#     num=input("enter the value:")
+#     rev=num[::-1]
+#     if num==rev:
+#         return 'it is palindrome'
+#     else:
+#         return 'it is not a palindrome'
+# print(palindrome())
+   
+##find the factorials
+# def factorial():
+#     fact=1
+#     num=int(input("Enter a number:"))
+#     for i in range(1, num+1):
+#         fact*=i
+#     return fact
+# print(factorial())
+
+
+# check given number is prime or not
+# def check_prime():
+#     count=0
+#     num=int(input("enter a number:"))
+#     for i in range(1,  num+1):
+#         if num%i==0:
+#             count+=1
+#     if count==2:
+#         return("Prime number")
+        
+#     else:
+#         return("Not a prime number")
+    
+# print(check_prime())
+            
+            
+# another way 
+# def check_prime(n):
+#     if n<2:
+#         return "Not prime"
+#     for i in range(2,n):
+#         if n%i ==0:
+#             return "Not Prime"
+#     return "Prime"
+# num=int(input("Enter a number:"))
+# result=check_prime(num)
+# print(result)
