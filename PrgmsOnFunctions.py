@@ -97,12 +97,121 @@
 
 
 # Function to count vowels in a string.
+# def countvowel(n):
+#     count=0
+#     for i in n:
+#         if i in "aeiou":
+#             count+=1
+#     return count
+# n=input("Enter a string:")
+# print(countvowel(n))        
+    
 # Function to reverse a string.
+# def reverse(n):
+#     result=n[::-1]
+#     return result
+# n=input("Enter a string:")
+# print(reverse(n))
+
 # Function to find the maximum value in a list.
+# def max(n):
+#     large=n[0]
+#     for value in n:
+#         if value>large:
+#             large=value
+#     return large
+# n=[23,4,45,67,99]
+# print(max(n))
+
+# def maximum(n):
+#     return max(n)
+# n = [23, 4, 45, 67, 99]
+# print(maximum(n))
+
 # Function to find the minimum value in a list.
+# def min(n):
+#     small=n[0]
+#     for value in n:
+#         if value<small:
+#             small=value
+#     return small
+# n=[23,4,45,67,99]
+# print(min(n))
+
+# def minimum(n):
+#     n.sort()
+#     return n[0]
+# n = [23, 4, 45, 67, 99]
+# print(minimum(n))
+
 # Function to calculate the sum of list elements.
+# def sumlist(n):
+#     sum=0
+#     for i in n:
+#         sum+=i
+#     return sum
+# n=[1,2,3,4]
+# print("List of Sum:", sumlist(n))
+
+# def sumlist(n):
+#     return sum(n)
+# n = [1, 2, 3, 4]
+# print("List of Sum:", sumlist(n))
+
 # Function to remove duplicates from a list.
+# def remove_duplicate(list):
+#     new_list=[]
+#     for i in list:
+#         if i  not in new_list:
+#             new_list.append(i)
+#     return new_list
+# list=[1,2,2,3,4,6,6]
+# print(remove_duplicate(list))
+
 # Function to count frequency of each element.
+# def frequency(lst):
+#     result = {}
+#     for i in lst:
+#         if i in result:
+#             result[i] += 1
+#         else:
+#             result[i] = 1
+#     return result
+# lst = [1, 2, 2, 3, 3, 3, 4]
+# print(frequency(lst))
+
 # Function to find the second-largest number.
+# def Second_max(n):
+#     large=n[0]
+#     second=n[0]
+#     for value in n:
+#         if value>large:
+#             second=large
+#             large=value
+#         elif value>second:
+#             second=value
+#     return second
+# n=[23,4,45,67,99]
+# print(Second_max(n))
+
+# def second_max(n):
+#     n.sort()
+#     return n[-2]
+# n = [23, 4, 45, 67, 99]
+# print(second_max(n))
+
 # Function to calculate student percentage.
+# def percentage(marks):
+#     total = sum(marks)
+#     maximum = len(marks) * 100
+#     return (total / maximum) * 100
+# marks = [80, 75, 90, 85, 70]
+# result = percentage(marks)
+# print("Percentage:", result, "%")
+
 # Function to calculate employee salary.
+# def salary(basic, hra, da):
+#     total = basic + hra + da
+#     return total
+# result = salary(30000, 5000, 3000)
+# print("Employee Salary:", result)
