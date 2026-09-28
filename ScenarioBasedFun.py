@@ -218,3 +218,23 @@
 # Task: 
 # Create functions to calculate the delivery charge, GST, and final amount 
 # payable by Anjali.
+
+# def FoodApp():
+#     return "Welcome to Food Delivery Application!..."
+# def delivery_charge(distance):
+#     if distance <= 3:
+#         return 30
+#     elif distance >=4 and distance <=7:
+#         return 50
+#     else:
+#         return 80
+# def GST(food):
+#     return food * 0.05
+# def Final_amount(food, distance):
+#     return food + delivery_charge(distance) + GST(food)
+# food = 600
+# distance = 5
+# print(FoodApp())
+# print("Delivery Charge:", delivery_charge(distance))
+# print("GST:", GST(food))
+# print("Final Amount:", Final_amount(food, distance))
