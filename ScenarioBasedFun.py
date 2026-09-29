@@ -238,3 +238,47 @@
 # print("Delivery Charge:", delivery_charge(distance))
 # print("GST:", GST(food))
 # print("Final Amount:", Final_amount(food, distance))
+
+
+
+# 9. Employee Attendance Story 
+# Vijay works in a company where his monthly salary is ₹30,000. 
+# There are 26 working days in the month, but Vijay attended only 18 days. 
+# The company's HR system calculates the attendance percentage. 
+# If an employee's attendance is below 75%, the company deducts 10% of the 
+# monthly salary. 
+# Task: 
+# Create functions to: 
+#  Calculate attendance percentage  
+#  Calculate salary deduction  
+#  Calculate final salary  
+#  Display employee details  
+
+def attendence():
+    percentage=(attended/working)
+    return percentage
+def salary_deduction(percentage):
+    if percentage<75:
+        return
+        
+attended=18
+working=26
+
+
+
+
+# 10. Mobile Recharge Story 
+# Kiran wants to recharge his mobile phone. 
+# His mobile operator provides three plans: 
+# Plan 1 → ₹199 → 1 GB/day 
+# Plan 2 → ₹299 → 1.5 GB/day 
+# Plan 3 → ₹399 → 2 GB/day 
+# Kiran selects a plan. The recharge application then adds 18% GST to the plan 
+# price. 
+# The application should show the selected plan and the final amount. 
+# Task: 
+# Create functions to: 
+#  Display available plans  Select a plan  
+#  Calculate GST  
+#  Calculate final recharge amount  
+#  Display the recharge details 
