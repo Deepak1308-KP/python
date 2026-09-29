@@ -254,18 +254,32 @@
 #  Calculate final salary  
 #  Display employee details  
 
-def attendence():
-    percentage=(attended/working)
-    return percentage
-def salary_deduction(percentage):
-    if percentage<75:
-        return
+# def attendence():
+#     percentage=(attended/working)*100
+#     return percentage
+# def salary_deduction(percentage):
+#     if percentage<75:
+#         return salary*0.10
+#     else:
+#         return 0
+# def Final_salary():
+#     percentage=attendence()
+#     deducation=salary_deduction(percentage)
+#     return salary-deducation
+
+# def employee_details():
+#     print("Employee Name: Vijay")
+#     print("Monthly Salary:", salary)
+#     print("Working Days:", working)
+#     print("Attended Days:", attended)
+#     print("Attendance Percentage:", attendence())
+#     print("Salary Deduction:", salary_deduction(attendence()))
+#     print("Final Salary:", Final_salary())
         
-attended=18
-working=26
-
-
-
+# attended=18
+# working=26
+# salary=30000
+# employee_details()
 
 # 10. Mobile Recharge Story 
 # Kiran wants to recharge his mobile phone. 
@@ -282,3 +296,34 @@ working=26
 #  Calculate GST  
 #  Calculate final recharge amount  
 #  Display the recharge details 
+
+def MObile_Recharge():
+    print("Welcome to rechage app!...")
+def available_plan():
+    print("1. Plan 1 → ₹199 → 1 GB/day")
+    print("2. Plan 2 → ₹299 → 1.5 GB/day")
+    print("3. Plan 3 → ₹399 → 2 GB/day")
+def Selected_plans(Plans):
+    if Plans==1:
+        return 199
+    elif Plans==2:
+        return 299
+    elif Plans==3:
+        return 399
+    else:
+        return 0
+def GST(Plans):
+    return Selected_plans(Plans)*0.18
+def finalamount():
+    total=Selected_plans(Plans)+GST(Plans)
+    return total
+
+def rechargeDetails():
+    print("Select a Plan", Plans)
+    print("Selected Plans:", Selected_plans(Plans))
+    print("GST:", GST(Plans))
+    print("Total Amount:", finalamount())
+MObile_Recharge()
+available_plan()
+Plans = int(input("Enter Your Choice: "))
+rechargeDetails()
