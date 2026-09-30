@@ -239,10 +239,48 @@
 #     print("It is not a palindrome", palindrome)
 
 # 30.	Custom sort — Sort a list of tuples/dictionaries by a specific key (e.g., sort students by marks).
+# students = [("Deepak", 85), ("Vikesh", 92), ("Gagan", 78)]
+# students.sort(key=lambda x:x[1])
+# print(students)
+
 # 31.	Running sum — Given a list, return a new list where each element is the cumulative sum up to that index.
+# numbers = [1, 2, 3, 4, 5]
+# result = []
+# total = 0
+# for i in numbers:
+#     total += i
+#     result.append(total)
+# print(result)
+
 # 32.	Remove specific type — Remove all strings from a mixed list (containing ints, strings, floats).
+# mixed_list = [1, "apple", 2.5, "banana", 3, "cherry"]
+# num=[]
+# for i in mixed_list:
+#     if type(i)!=str:
+#         num.append(i)
+# print(num)
+
 # 33.	Find missing number — Given a list of numbers from 1 to n with one missing, find the missing number.
+# numbers = [1, 2, 4, 5, 6]
+# n=6
+# for i in range(1,n+1):
+#     if i not in numbers:
+#         print("Missing number is:", i)
+
 # 34.	List rotation detection — Check if one list is a rotated version of another.
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [3, 4, 5, 1, 2]
+
+# if len(list1) == len(list2) and list2 in (list1 + list1):
+#     print("It is a rotated version")
+# else:
+#     print("It is not a rotated version")
 # 35.	Group anagrams — Given a list of words, group anagrams together.
-
-
+# words = ["eat", "tea", "tan", "ate", "nat", "bat"]
+# groups = {}
+# for word in words:
+#     key = "".join(sorted(word))
+#     if key not in groups:
+#         groups[key] = []
+#     groups[key].append(word)
+# print(list(groups.values()))
