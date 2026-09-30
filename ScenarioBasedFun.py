@@ -297,33 +297,33 @@
 #  Calculate final recharge amount  
 #  Display the recharge details 
 
-def MObile_Recharge():
-    print("Welcome to rechage app!...")
-def available_plan():
-    print("1. Plan 1 → ₹199 → 1 GB/day")
-    print("2. Plan 2 → ₹299 → 1.5 GB/day")
-    print("3. Plan 3 → ₹399 → 2 GB/day")
-def Selected_plans(Plans):
-    if Plans==1:
-        return 199
-    elif Plans==2:
-        return 299
-    elif Plans==3:
-        return 399
-    else:
-        return 0
-def GST(Plans):
-    return Selected_plans(Plans)*0.18
-def finalamount():
-    total=Selected_plans(Plans)+GST(Plans)
-    return total
+# def MObile_Recharge():
+#     print("Welcome to rechage app!...")
+# def available_plan():
+#     print("1. Plan 1 → ₹199 → 1 GB/day")
+#     print("2. Plan 2 → ₹299 → 1.5 GB/day")
+#     print("3. Plan 3 → ₹399 → 2 GB/day")
+# def Selected_plans(Plans):
+#     if Plans==1:
+#         return 199
+#     elif Plans==2:
+#         return 299
+#     elif Plans==3:
+#         return 399
+#     else:
+#         return 0
+# def GST(Plans):
+#     return Selected_plans(Plans)*0.18
+# def finalamount():
+#     total=Selected_plans(Plans)+GST(Plans)
+#     return total
 
-def rechargeDetails():
-    print("Select a Plan", Plans)
-    print("Selected Plans:", Selected_plans(Plans))
-    print("GST:", GST(Plans))
-    print("Total Amount:", finalamount())
-MObile_Recharge()
-available_plan()
-Plans = int(input("Enter Your Choice: "))
-rechargeDetails()
+# def rechargeDetails():
+#     print("Select a Plan", Plans)
+#     print("Selected Plans:", Selected_plans(Plans))
+#     print("GST:", GST(Plans))
+#     print("Total Amount:", finalamount())
+# MObile_Recharge()
+# available_plan()
+# Plans = int(input("Enter Your Choice: "))
+# rechargeDetails()
